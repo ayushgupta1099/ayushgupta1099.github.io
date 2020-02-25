@@ -1,0 +1,35 @@
+h1{
+    padding:0;
+    margin:0;
+    background: #9b59b6;
+    font-size: 250%;
+}
+header{
+    text-align:center;
+    font-variant: small-caps;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+div{
+    padding:30px;
+    background:yellow;
+    display: flex;
+    justify-content:flex-start;
+    align-items:start;
+}
+
+.blog{
+    flex-grow:0.;
+}
+div a{
+    font-size: 150%;
+    text-decoration: none;
+    background: #34ff02;
+    margin:5px;
+}
+
+a:hover{
+    color:#e74c3c;
+    text-decoration:underline;
+    text-decoration-color: #d35400;  
+}
+
